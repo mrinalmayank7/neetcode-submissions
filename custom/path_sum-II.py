@@ -29,8 +29,8 @@ class Solution:
 
 """
 DFS With backtracking
-Time: O(n) — every node visited once
-Space: O(h) — recursion stack depth = height of tree. Plus O(n) for storing all valid paths in result.
+Time: O(n^2) — every node visited once
+Space: O(h^2) — recursion stack depth = height of tree. Plus O(n) for storing all valid paths in result.
 Rules:
 
 A — CHOOSE: append node.val to path, subtract from remaining
